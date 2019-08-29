@@ -1,0 +1,15 @@
+Comandos de Git
+
+
+1 debo tener un repositorio  creado debe tener un archivo Readme.txt
+
+2 para clonarlo uso el 
+     Git Clone
+3 Agregar los archivos nuevos o modificados 
+     Git add .
+
+4 Hacer commit 
+    -Git commit -m "mensaje del commit"-.
+
+5 Subo todos los commkit a Github 
+     -Git push-.
