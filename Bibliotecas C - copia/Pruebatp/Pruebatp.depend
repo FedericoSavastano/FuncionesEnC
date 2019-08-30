@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1567172190 source:d:\federicosavastano\bibliotecas c\pruebatp\funciones.c
+	<stdio.h>
+	<stdlib.h>
+
+1567173537 source:d:\federicosavastano\bibliotecas c\pruebatp\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1567172036 d:\federicosavastano\bibliotecas c\pruebatp\funciones.h
+
