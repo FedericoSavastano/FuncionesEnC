@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1567169300 source:d:\federicosavastano\bibliotecas c\bibliotecasc\aritmeticas.c
+	"Aritmeticas.h"
+
+1567169554 d:\federicosavastano\bibliotecas c\bibliotecasc\aritmeticas.h
+
+1567169531 source:d:\federicosavastano\bibliotecas c\bibliotecasc\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Aritmeticas.h"
+
