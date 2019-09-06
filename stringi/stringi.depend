@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1567805081 source:d:\progrmacion nuevo\stringis\stringi\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funcs.h"
+	<ctype.h>
+
+1567805892 source:d:\progrmacion nuevo\stringis\stringi\funcs.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1567804925 d:\progrmacion nuevo\stringis\stringi\funcs.h
+
