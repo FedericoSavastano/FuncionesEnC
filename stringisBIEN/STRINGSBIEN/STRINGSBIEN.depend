@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1568240440 source:d:\progrmacion nuevo\stringisbien\stringsbien\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1568240383 source:d:\progrmacion nuevo\stringisbien\stringsbien\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1568239736 d:\progrmacion nuevo\stringisbien\stringsbien\funciones.h
+
