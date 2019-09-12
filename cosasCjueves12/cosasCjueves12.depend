@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1568298644 source:d:\federicosavastano\cosascjueves12\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1568298626 source:d:\federicosavastano\cosascjueves12\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1568297792 d:\federicosavastano\cosascjueves12\funciones.h
+
