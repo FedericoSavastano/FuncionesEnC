@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1568843584 source:d:\progrmacion nuevo\estructus\estructus\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"estructuras.h"
+
+1568842667 d:\progrmacion nuevo\estructus\estructus\estructuras.h
+
+1568843185 source:d:\progrmacion nuevo\estructus\estructus\estructuras.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"estructuras.h"
+
