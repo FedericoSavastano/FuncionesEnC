@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1568943623 source:d:\progrmacion nuevo\estructus2\estrc2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1568943598 d:\progrmacion nuevo\estructus2\estrc2\funciones.h
+
+1568943587 source:d:\progrmacion nuevo\estructus2\estrc2\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
