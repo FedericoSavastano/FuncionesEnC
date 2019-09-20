@@ -153,3 +153,7 @@ void hardcoderAlumnos(eAlumno lista[], int cant)
     }
 
 }
+
+
+
+

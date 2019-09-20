@@ -6,9 +6,10 @@
 int main()
 {
     eAlumno listaAlumnos[A];
-    int i;
+    //int i;
     int opcion;
     int index;
+    int legajoParaBuscar;
 
     if(inicializarAlumnos(listaAlumnos,A)==0)
     {
@@ -17,7 +18,8 @@ int main()
             printf("1.Cargar alumnos\n");
             printf("2.Mostrar alumnos\n");
             printf("3.Ordenar alumnos por nombre\n");
-            printf("4.Buscar Alumno\n");
+            printf("4.Buscar Alumno por legajo\n");
+            //printf("5. Buscar alumno por legajo\n")
             printf("Elija una opcion: ");
             scanf("%d", &opcion);
             switch(opcion)
@@ -42,12 +44,23 @@ int main()
                 ordenarAlumnosPorNombre(listaAlumnos,A);
                 break;
             case 4:
-
-                index = buscarAlumnoPorLegajo(listaAlumnos,A,100);
-
+                printf("Ingrese el legajo: "); //ESTO TIENE QUE IR CON UNA FUNCION DE PEDIR UN INT
+                scanf("%d",&legajoParaBuscar);
+                index=buscarAlumnoPorLegajo(listaAlumnos,A,legajoParaBuscar);
+                if(index>0)
+                {
+                    printf("\nse dará de baja al siguiente alumno: %s\n", listaAlumnos[index].nombre);
+                    listaAlumnos[index].estado=LIBRE;
+                }else{
+                    printf("\nNo se encontró al alumno\n");
+                }
+                /** ESTO LO HIZO CON UNA FUNCION DE ELIMINAR ALUMNO, USAR LOS DE GETSTRING, CHAR ETC
+                PARA MODIFICACIONES ES EL MISMO CODIGO PERO CAMBIANDO EL DATO QUE USO, EJ EL NOMBRE O NOTA
+                HACER LO DE ESO   **/
                 mostrarAlumno(listaAlumnos[index]);
 
                 break;
+
             }
             system("pause");
             system("cls");

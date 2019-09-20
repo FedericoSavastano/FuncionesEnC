@@ -22,3 +22,15 @@
 1568985627 source:c:\users\alumno\desktop\estructuras 1b\alumno.c
 	"Alumno.h"
 
+1568989427 source:d:\federicosavastano\nueva carpeta (2)\estructuras 1b 20-9\alumno.c
+	"Alumno.h"
+
+1568985563 d:\federicosavastano\nueva carpeta (2)\estructuras 1b 20-9\alumno.h
+	<stdio.h>
+	<string.h>
+
+1568989713 source:d:\federicosavastano\nueva carpeta (2)\estructuras 1b 20-9\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Alumno.h"
+
