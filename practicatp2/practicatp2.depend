@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1569548025 source:d:\progrmacion nuevo\practica tp2\practicatp2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayEmployees.h"
+
+1569547911 d:\progrmacion nuevo\practica tp2\practicatp2\arrayemployees.h
+
+1569547988 source:d:\progrmacion nuevo\practica tp2\practicatp2\arrayemployees.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayEmployees.h"
+
